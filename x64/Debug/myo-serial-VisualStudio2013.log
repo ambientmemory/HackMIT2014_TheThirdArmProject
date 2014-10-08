@@ -1,0 +1,38 @@
+﻿Build started 10/4/2014 11:41:51 PM.
+     1>Project "C:\Users\Piyali\Desktop\myo-serial\myo-serial\myo-serial-VisualStudio2013.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "myo-serial.cpp" SerialPort.cpp
+         SerialPort.cpp
+         myo-serial.cpp
+     1>myo-serial.cpp(10): warning C4103: 'c:\users\piyali\desktop\myo-serial\myo-serial\myo-serial.cpp' : alignment changed after including header, may be due to missing #pragma pack(pop)
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Piyali\Desktop\myo-serial\myo-serial\x64\Debug\myo-serial-VisualStudio2013.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib myo32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Piyali\Desktop\myo-serial\myo-serial\x64\Debug\myo-serial-VisualStudio2013.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Piyali\Desktop\myo-serial\myo-serial\x64\Debug\myo-serial-VisualStudio2013.lib" /MACHINE:X64 "x64\Debug\myo-serial.obj"
+         x64\Debug\SerialPort.obj
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_error_cstring referenced in function "public: __cdecl myo::ThrowOnError::~ThrowOnError(void)" (??1ThrowOnError@myo@@QEAA@XZ)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_error_kind referenced in function "public: __cdecl myo::ThrowOnError::~ThrowOnError(void)" (??1ThrowOnError@myo@@QEAA@XZ)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_free_error_details referenced in function "public: __cdecl myo::ThrowOnError::~ThrowOnError(void)" (??1ThrowOnError@myo@@QEAA@XZ)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_string_c_str referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl myo::Myo::macAddressAsString(void)const " (?macAddressAsString@Myo@myo@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_string_free referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl myo::Myo::macAddressAsString(void)const " (?macAddressAsString@Myo@myo@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_mac_address_to_string referenced in function "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl myo::Myo::macAddressAsString(void)const " (?macAddressAsString@Myo@myo@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_init_hub referenced in function "public: __cdecl myo::Hub::Hub(void)" (??0Hub@myo@@QEAA@XZ)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_shutdown_hub referenced in function "public: __cdecl myo::Hub::~Hub(void)" (??1Hub@myo@@QEAA@XZ)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_get_mac_address referenced in function "public: unsigned __int64 __cdecl myo::Myo::macAddress(void)const " (?macAddress@Myo@myo@@QEBA_KXZ)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_pair_any referenced in function "public: void __cdecl myo::Hub::pairWithAnyMyos(unsigned int)" (?pairWithAnyMyos@Hub@myo@@QEAAXI@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_training_load_profile referenced in function "private: __cdecl myo::Myo::Myo(void *)" (??0Myo@myo@@AEAA@PEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_event_get_type referenced in function "protected: void __cdecl myo::Hub::onDeviceEvent(void *)" (?onDeviceEvent@Hub@myo@@IEAAXPEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_event_get_timestamp referenced in function "protected: void __cdecl myo::Hub::onDeviceEvent(void *)" (?onDeviceEvent@Hub@myo@@IEAAXPEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_event_get_myo referenced in function "protected: void __cdecl myo::Hub::onDeviceEvent(void *)" (?onDeviceEvent@Hub@myo@@IEAAXPEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_event_get_arm referenced in function "protected: void __cdecl myo::Hub::onDeviceEvent(void *)" (?onDeviceEvent@Hub@myo@@IEAAXPEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_event_get_orientation referenced in function "protected: void __cdecl myo::Hub::onDeviceEvent(void *)" (?onDeviceEvent@Hub@myo@@IEAAXPEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_event_get_accelerometer referenced in function "protected: void __cdecl myo::Hub::onDeviceEvent(void *)" (?onDeviceEvent@Hub@myo@@IEAAXPEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_event_get_gyroscope referenced in function "protected: void __cdecl myo::Hub::onDeviceEvent(void *)" (?onDeviceEvent@Hub@myo@@IEAAXPEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_event_get_pose referenced in function "protected: void __cdecl myo::Hub::onDeviceEvent(void *)" (?onDeviceEvent@Hub@myo@@IEAAXPEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_event_get_rssi referenced in function "protected: void __cdecl myo::Hub::onDeviceEvent(void *)" (?onDeviceEvent@Hub@myo@@IEAAXPEAX@Z)
+     1>myo-serial.obj : error LNK2019: unresolved external symbol __imp_libmyo_run referenced in function "public: void __cdecl myo::Hub::run(unsigned int)" (?run@Hub@myo@@QEAAXI@Z)
+     1>C:\Users\Piyali\Desktop\myo-serial\myo-serial\x64\Debug\myo-serial-VisualStudio2013.exe : fatal error LNK1120: 21 unresolved externals
+     1>Done Building Project "C:\Users\Piyali\Desktop\myo-serial\myo-serial\myo-serial-VisualStudio2013.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.24

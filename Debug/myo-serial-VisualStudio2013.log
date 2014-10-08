@@ -1,0 +1,19 @@
+﻿Build started 10/5/2014 1:14:59 AM.
+     1>Project "C:\Users\Piyali\Desktop\myo-serial\myo-serial\myo-serial-VisualStudio2013.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinclude /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "myo-serial.cpp"
+         myo-serial.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Piyali\Desktop\myo-serial\myo-serial\Debug\myo-serial-VisualStudio2013.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib myo32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Piyali\Desktop\myo-serial\myo-serial\Debug\myo-serial-VisualStudio2013.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Piyali\Desktop\myo-serial\myo-serial\Debug\myo-serial-VisualStudio2013.lib" /MACHINE:X86 "Debug\myo-serial.obj"
+         Debug\SerialPort.obj
+         myo-serial-VisualStudio2013.vcxproj -> C:\Users\Piyali\Desktop\myo-serial\myo-serial\Debug\myo-serial-VisualStudio2013.exe
+       PostBuildEvent:
+         COPY "myo32.dll" "C:\Users\Piyali\Desktop\myo-serial\myo-serial\Debug\"
+               
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Piyali\Desktop\myo-serial\myo-serial\myo-serial-VisualStudio2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.82
