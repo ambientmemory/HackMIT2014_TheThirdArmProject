@@ -10,7 +10,7 @@
 ## Design: 
 The third arm project was constructed using some cardboard, plastic and routed using an Arduino Mega board. This project uses a Myo gesture control armband (Thalmic Labs) to capture signals of wrist movement and transmit to our constructed hand. 
 
-[Third Arm in action](https://media.giphy.com/media/w8sTcpRzCapakOvanh/giphy.gif)
+![Third Arm in action](https://media.giphy.com/media/w8sTcpRzCapakOvanh/giphy.gif)
 
 [Full video here](https://www.youtube.com/watch?v=oYBgqnfbgDo)
 
