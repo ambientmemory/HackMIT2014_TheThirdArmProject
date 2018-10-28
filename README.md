@@ -2,7 +2,7 @@
 # TheThirdArmProject
 
 ## Team
-- Piyali Mukherjee
+- Piyali Mukherjee (Columbia University)
 - Sarthak Bansal (University of Toronto)
 - Vinicius Dantas (University of Toronto)
 - Nam Tran (Worcester Polytechnic Institute)
